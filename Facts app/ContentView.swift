@@ -8,8 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    init () {
+        UITabBar.appearance().backgroundColor = UIColor( Color("tabbarColor"))
+        
+    }
     var body: some View {
-        VStack {
+       
             TabView{
                 
                 Group{
@@ -17,16 +21,18 @@ struct ContentView: View {
                         .tabItem{
                             Image(systemName: "person.fill")
                         }
-                    Text ("k")
+                    OrderPage()
                         .tabItem{
                             Image(systemName: "menucard.fill")
                         }
                     Text ("L")
                         .tabItem{Image(systemName:"info.bubble.fill")}
-                }
-            }
-            .padding()
-        }
+                }.toolbar(.visible, for: .tabBar)
+                    .toolbarBackground(Color(.black), for: .tabBar)
+            }.toolbar(.visible, for: .tabBar)
+            .toolbarBackground(Color(.black), for: .tabBar).accentColor(Color("primary"))
+            
+        
     }
 }
 
