@@ -13,6 +13,11 @@
 		E7C892F72988654100200152 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7C892F62988654100200152 /* Preview Assets.xcassets */; };
 		E7FA0FAF2989A78400473F4C /* OrderPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FA0FAE2989A78400473F4C /* OrderPage.swift */; };
 		E7FA0FB32989BAD400473F4C /* DefaultPfp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FA0FB22989BAD400473F4C /* DefaultPfp.swift */; };
+		FF45ECB0299C2A12000579B6 /* AccountPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF45ECAF299C2A12000579B6 /* AccountPageView.swift */; };
+		FF45ECB2299C2AB0000579B6 /* gardenerProfileBio.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF45ECB1299C2AB0000579B6 /* gardenerProfileBio.swift */; };
+		FF45ECB4299C2ABE000579B6 /* gardenersCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF45ECB3299C2ABE000579B6 /* gardenersCircle.swift */; };
+		FF45ECB6299C2ACB000579B6 /* gardenText.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF45ECB5299C2ACB000579B6 /* gardenText.swift */; };
+		FF45ECB8299C2AD8000579B6 /* gardenerRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF45ECB7299C2AD8000579B6 /* gardenerRectangle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +28,11 @@
 		E7C892F62988654100200152 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E7FA0FAE2989A78400473F4C /* OrderPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderPage.swift; sourceTree = "<group>"; };
 		E7FA0FB22989BAD400473F4C /* DefaultPfp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultPfp.swift; sourceTree = "<group>"; };
+		FF45ECAF299C2A12000579B6 /* AccountPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountPageView.swift; sourceTree = "<group>"; };
+		FF45ECB1299C2AB0000579B6 /* gardenerProfileBio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gardenerProfileBio.swift; sourceTree = "<group>"; };
+		FF45ECB3299C2ABE000579B6 /* gardenersCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gardenersCircle.swift; sourceTree = "<group>"; };
+		FF45ECB5299C2ACB000579B6 /* gardenText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gardenText.swift; sourceTree = "<group>"; };
+		FF45ECB7299C2AD8000579B6 /* gardenerRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gardenerRectangle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 				E7C892EF2988653F00200152 /* Facts_appApp.swift */,
 				E7FA0FB22989BAD400473F4C /* DefaultPfp.swift */,
 				E7C892F12988653F00200152 /* ContentView.swift */,
+				FF45ECAF299C2A12000579B6 /* AccountPageView.swift */,
+				FF45ECB1299C2AB0000579B6 /* gardenerProfileBio.swift */,
+				FF45ECB3299C2ABE000579B6 /* gardenersCircle.swift */,
+				FF45ECB5299C2ACB000579B6 /* gardenText.swift */,
+				FF45ECB7299C2AD8000579B6 /* gardenerRectangle.swift */,
 				E7FA0FAE2989A78400473F4C /* OrderPage.swift */,
 				E7C892F32988654100200152 /* Assets.xcassets */,
 				E7C892F52988654100200152 /* Preview Content */,
@@ -144,6 +159,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7C892F22988653F00200152 /* ContentView.swift in Sources */,
+				FF45ECB6299C2ACB000579B6 /* gardenText.swift in Sources */,
+				FF45ECB4299C2ABE000579B6 /* gardenersCircle.swift in Sources */,
+				FF45ECB0299C2A12000579B6 /* AccountPageView.swift in Sources */,
+				FF45ECB8299C2AD8000579B6 /* gardenerRectangle.swift in Sources */,
+				FF45ECB2299C2AB0000579B6 /* gardenerProfileBio.swift in Sources */,
 				E7C892F02988653F00200152 /* Facts_appApp.swift in Sources */,
 				E7FA0FB32989BAD400473F4C /* DefaultPfp.swift in Sources */,
 				E7FA0FAF2989A78400473F4C /* OrderPage.swift in Sources */,
