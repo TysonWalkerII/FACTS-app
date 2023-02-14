@@ -24,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E7020B74299C30B700E7A43E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		E7020B76299C30F000E7A43E /* FarmersNearYouPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmersNearYouPage.swift; sourceTree = "<group>"; };
+		E7020B78299C313B00E7A43E /* FarmersTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmersTabView.swift; sourceTree = "<group>"; };
 		E7C892EC2988653F00200152 /* Facts app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Facts app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7C892EF2988653F00200152 /* Facts_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facts_appApp.swift; sourceTree = "<group>"; };
 		E7C892F12988653F00200152 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -76,7 +79,10 @@
 				FF45ECB3299C2ABE000579B6 /* gardenersCircle.swift */,
 				FF45ECB5299C2ACB000579B6 /* gardenText.swift */,
 				FF45ECB7299C2AD8000579B6 /* gardenerRectangle.swift */,
+				E7020B76299C30F000E7A43E /* FarmersNearYouPage.swift */,
 				E7FA0FAE2989A78400473F4C /* OrderPage.swift */,
+				E7020B74299C30B700E7A43E /* MapView.swift */,
+				E7020B78299C313B00E7A43E /* FarmersTabView.swift */,
 				E7C892F32988654100200152 /* Assets.xcassets */,
 				E7C892F52988654100200152 /* Preview Content */,
 			);
@@ -168,6 +174,9 @@
 				FF45ECB8299C2AD8000579B6 /* gardenerRectangle.swift in Sources */,
 				FF45ECB2299C2AB0000579B6 /* gardenerProfileBio.swift in Sources */,
 				E7C892F02988653F00200152 /* Facts_appApp.swift in Sources */,
+				E7020B79299C313B00E7A43E /* FarmersTabView.swift in Sources */,
+				E7020B75299C30B700E7A43E /* MapView.swift in Sources */,
+				E7020B77299C30F000E7A43E /* FarmersNearYouPage.swift in Sources */,
 				E7FA0FB32989BAD400473F4C /* DefaultPfp.swift in Sources */,
 				E7FA0FAF2989A78400473F4C /* OrderPage.swift in Sources */,
 			);
