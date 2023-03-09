@@ -7,9 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E7020B75299C30B700E7A43E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7020B74299C30B700E7A43E /* MapView.swift */; };
 		E7020B77299C30F000E7A43E /* FarmersNearYouPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7020B76299C30F000E7A43E /* FarmersNearYouPage.swift */; };
 		E7020B79299C313B00E7A43E /* FarmersTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7020B78299C313B00E7A43E /* FarmersTabView.swift */; };
+		E71F54C3299D728400B2E0FD /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71F54C2299D728400B2E0FD /* Models.swift */; };
+		E71F54CE299EC53E00B2E0FD /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71F54CD299EC53E00B2E0FD /* LocationManager.swift */; };
+		E71F54D0299EC5F800B2E0FD /* MKCoordinateRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71F54CF299EC5F800B2E0FD /* MKCoordinateRegion.swift */; };
+		E71F54D2299ECAD300B2E0FD /* LocalSearchSevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71F54D1299ECAD300B2E0FD /* LocalSearchSevice.swift */; };
+		E71F54D6299ED2AE00B2E0FD /* LandmarklistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71F54D5299ED2AE00B2E0FD /* LandmarklistView.swift */; };
+		E71F54D929A0076700B2E0FD /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71F54D829A0076700B2E0FD /* ShopView.swift */; };
+		E71F54DB29A0079200B2E0FD /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71F54DA29A0079200B2E0FD /* CartView.swift */; };
+		E71F54DD29A007EB00B2E0FD /* Sea Sweater.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71F54DC29A007EB00B2E0FD /* Sea Sweater.swift */; };
+		E71F54E129A00BCE00B2E0FD /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71F54E029A00BCE00B2E0FD /* CartManager.swift */; };
+		E71F54E329A00C0900B2E0FD /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71F54E229A00C0900B2E0FD /* ProductRow.swift */; };
+		E71F54E529A00CD300B2E0FD /* PoductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71F54E429A00CD300B2E0FD /* PoductCard.swift */; };
+		E71F54E929A0231E00B2E0FD /* CustomerCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71F54E829A0231E00B2E0FD /* CustomerCircle.swift */; };
+		E71F54EB29A0235A00B2E0FD /* CustomerProfileBio.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71F54EA29A0235A00B2E0FD /* CustomerProfileBio.swift */; };
+		E71F54ED29A0237E00B2E0FD /* Customer Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71F54EC29A0237E00B2E0FD /* Customer Text.swift */; };
+		E71F54EF29A023E900B2E0FD /* CustomerPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71F54EE29A023E900B2E0FD /* CustomerPageView.swift */; };
+		E71F54F129A0246C00B2E0FD /* CustomerRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71F54F029A0246C00B2E0FD /* CustomerRectangle.swift */; };
+		E71F54F329A027B900B2E0FD /* AccountPageSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71F54F229A027B900B2E0FD /* AccountPageSection.swift */; };
+		E71F54F529A02B1D00B2E0FD /* AccountPageSectionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71F54F429A02B1D00B2E0FD /* AccountPageSectionList.swift */; };
+		E71F54F729A08B5300B2E0FD /* GuidesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71F54F629A08B5300B2E0FD /* GuidesView.swift */; };
+		E7A9AA7D29A1EE9E00D73862 /* tagthing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A9AA7C29A1EE9E00D73862 /* tagthing.swift */; };
+		E7A9AA9E29A40C6B00D73862 /* Cartbutton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A9AA9D29A40C6B00D73862 /* Cartbutton.swift */; };
 		E7C892F02988653F00200152 /* Facts_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C892EF2988653F00200152 /* Facts_appApp.swift */; };
 		E7C892F22988653F00200152 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C892F12988653F00200152 /* ContentView.swift */; };
 		E7C892F42988654100200152 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7C892F32988654100200152 /* Assets.xcassets */; };
@@ -24,9 +44,30 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E7020B74299C30B700E7A43E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		E7020B76299C30F000E7A43E /* FarmersNearYouPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmersNearYouPage.swift; sourceTree = "<group>"; };
 		E7020B78299C313B00E7A43E /* FarmersTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmersTabView.swift; sourceTree = "<group>"; };
+		E71F54C2299D728400B2E0FD /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		E71F54CD299EC53E00B2E0FD /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		E71F54CF299EC5F800B2E0FD /* MKCoordinateRegion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKCoordinateRegion.swift; sourceTree = "<group>"; };
+		E71F54D1299ECAD300B2E0FD /* LocalSearchSevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalSearchSevice.swift; sourceTree = "<group>"; };
+		E71F54D5299ED2AE00B2E0FD /* LandmarklistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarklistView.swift; sourceTree = "<group>"; };
+		E71F54D729A001CA00B2E0FD /* Facts-app-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Facts-app-Info.plist"; sourceTree = SOURCE_ROOT; };
+		E71F54D829A0076700B2E0FD /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		E71F54DA29A0079200B2E0FD /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		E71F54DC29A007EB00B2E0FD /* Sea Sweater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sea Sweater.swift"; sourceTree = "<group>"; };
+		E71F54E029A00BCE00B2E0FD /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		E71F54E229A00C0900B2E0FD /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		E71F54E429A00CD300B2E0FD /* PoductCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoductCard.swift; sourceTree = "<group>"; };
+		E71F54E829A0231E00B2E0FD /* CustomerCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerCircle.swift; sourceTree = "<group>"; };
+		E71F54EA29A0235A00B2E0FD /* CustomerProfileBio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerProfileBio.swift; sourceTree = "<group>"; };
+		E71F54EC29A0237E00B2E0FD /* Customer Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Customer Text.swift"; sourceTree = "<group>"; };
+		E71F54EE29A023E900B2E0FD /* CustomerPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerPageView.swift; sourceTree = "<group>"; };
+		E71F54F029A0246C00B2E0FD /* CustomerRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerRectangle.swift; sourceTree = "<group>"; };
+		E71F54F229A027B900B2E0FD /* AccountPageSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountPageSection.swift; sourceTree = "<group>"; };
+		E71F54F429A02B1D00B2E0FD /* AccountPageSectionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountPageSectionList.swift; sourceTree = "<group>"; };
+		E71F54F629A08B5300B2E0FD /* GuidesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidesView.swift; sourceTree = "<group>"; };
+		E7A9AA7C29A1EE9E00D73862 /* tagthing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tagthing.swift; sourceTree = "<group>"; };
+		E7A9AA9D29A40C6B00D73862 /* Cartbutton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cartbutton.swift; sourceTree = "<group>"; };
 		E7C892EC2988653F00200152 /* Facts app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Facts app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7C892EF2988653F00200152 /* Facts_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facts_appApp.swift; sourceTree = "<group>"; };
 		E7C892F12988653F00200152 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +93,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E71F54C8299E808700B2E0FD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E7A9AA9D29A40C6B00D73862 /* Cartbutton.swift */,
+				E7A9AA7C29A1EE9E00D73862 /* tagthing.swift */,
+				FF45ECB1299C2AB0000579B6 /* gardenerProfileBio.swift */,
+				E71F54E029A00BCE00B2E0FD /* CartManager.swift */,
+				FF45ECB5299C2ACB000579B6 /* gardenText.swift */,
+				FF45ECB3299C2ABE000579B6 /* gardenersCircle.swift */,
+				E71F54EC29A0237E00B2E0FD /* Customer Text.swift */,
+				E71F54E829A0231E00B2E0FD /* CustomerCircle.swift */,
+				E71F54EA29A0235A00B2E0FD /* CustomerProfileBio.swift */,
+				FF45ECB7299C2AD8000579B6 /* gardenerRectangle.swift */,
+				E71F54F229A027B900B2E0FD /* AccountPageSection.swift */,
+				E71F54F429A02B1D00B2E0FD /* AccountPageSectionList.swift */,
+				E71F54F029A0246C00B2E0FD /* CustomerRectangle.swift */,
+				E71F54DC29A007EB00B2E0FD /* Sea Sweater.swift */,
+				E71F54E429A00CD300B2E0FD /* PoductCard.swift */,
+				E71F54E229A00C0900B2E0FD /* ProductRow.swift */,
+				E71F54D5299ED2AE00B2E0FD /* LandmarklistView.swift */,
+				E7020B78299C313B00E7A43E /* FarmersTabView.swift */,
+				E71F54D829A0076700B2E0FD /* ShopView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E71F54C9299E80A100B2E0FD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E71F54C2299D728400B2E0FD /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E71F54CA299EA09700B2E0FD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E71F54D1299ECAD300B2E0FD /* LocalSearchSevice.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E71F54CB299EA0AC00B2E0FD /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				E71F54CD299EC53E00B2E0FD /* LocationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		E71F54CC299EA29100B2E0FD /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				E71F54CF299EC5F800B2E0FD /* MKCoordinateRegion.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		E7A9AA9C29A3FBA000D73862 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FF45ECAF299C2A12000579B6 /* AccountPageView.swift */,
+				E7C892F12988653F00200152 /* ContentView.swift */,
+				E71F54F629A08B5300B2E0FD /* GuidesView.swift */,
+				E7020B76299C30F000E7A43E /* FarmersNearYouPage.swift */,
+				E71F54EE29A023E900B2E0FD /* CustomerPageView.swift */,
+				E7FA0FAE2989A78400473F4C /* OrderPage.swift */,
+				E71F54DA29A0079200B2E0FD /* CartView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		E7C892E32988653F00200152 = {
 			isa = PBXGroup;
 			children = (
@@ -71,18 +184,15 @@
 		E7C892EE2988653F00200152 /* Facts app */ = {
 			isa = PBXGroup;
 			children = (
+				E7A9AA9C29A3FBA000D73862 /* Views */,
+				E71F54D729A001CA00B2E0FD /* Facts-app-Info.plist */,
 				E7C892EF2988653F00200152 /* Facts_appApp.swift */,
 				E7FA0FB22989BAD400473F4C /* DefaultPfp.swift */,
-				E7C892F12988653F00200152 /* ContentView.swift */,
-				FF45ECAF299C2A12000579B6 /* AccountPageView.swift */,
-				FF45ECB1299C2AB0000579B6 /* gardenerProfileBio.swift */,
-				FF45ECB3299C2ABE000579B6 /* gardenersCircle.swift */,
-				FF45ECB5299C2ACB000579B6 /* gardenText.swift */,
-				FF45ECB7299C2AD8000579B6 /* gardenerRectangle.swift */,
-				E7020B76299C30F000E7A43E /* FarmersNearYouPage.swift */,
-				E7FA0FAE2989A78400473F4C /* OrderPage.swift */,
-				E7020B74299C30B700E7A43E /* MapView.swift */,
-				E7020B78299C313B00E7A43E /* FarmersTabView.swift */,
+				E71F54CC299EA29100B2E0FD /* Extentions */,
+				E71F54CB299EA0AC00B2E0FD /* Managers */,
+				E71F54CA299EA09700B2E0FD /* Services */,
+				E71F54C8299E808700B2E0FD /* Components */,
+				E71F54C9299E80A100B2E0FD /* Models */,
 				E7C892F32988654100200152 /* Assets.xcassets */,
 				E7C892F52988654100200152 /* Preview Content */,
 			);
@@ -167,18 +277,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E71F54ED29A0237E00B2E0FD /* Customer Text.swift in Sources */,
+				E71F54D6299ED2AE00B2E0FD /* LandmarklistView.swift in Sources */,
 				E7C892F22988653F00200152 /* ContentView.swift in Sources */,
+				E71F54C3299D728400B2E0FD /* Models.swift in Sources */,
 				FF45ECB6299C2ACB000579B6 /* gardenText.swift in Sources */,
+				E71F54F129A0246C00B2E0FD /* CustomerRectangle.swift in Sources */,
 				FF45ECB4299C2ABE000579B6 /* gardenersCircle.swift in Sources */,
+				E71F54D2299ECAD300B2E0FD /* LocalSearchSevice.swift in Sources */,
+				E71F54E129A00BCE00B2E0FD /* CartManager.swift in Sources */,
+				E71F54F529A02B1D00B2E0FD /* AccountPageSectionList.swift in Sources */,
 				FF45ECB0299C2A12000579B6 /* AccountPageView.swift in Sources */,
 				FF45ECB8299C2AD8000579B6 /* gardenerRectangle.swift in Sources */,
+				E71F54DD29A007EB00B2E0FD /* Sea Sweater.swift in Sources */,
 				FF45ECB2299C2AB0000579B6 /* gardenerProfileBio.swift in Sources */,
+				E71F54D0299EC5F800B2E0FD /* MKCoordinateRegion.swift in Sources */,
 				E7C892F02988653F00200152 /* Facts_appApp.swift in Sources */,
 				E7020B79299C313B00E7A43E /* FarmersTabView.swift in Sources */,
-				E7020B75299C30B700E7A43E /* MapView.swift in Sources */,
+				E7A9AA9E29A40C6B00D73862 /* Cartbutton.swift in Sources */,
+				E71F54D929A0076700B2E0FD /* ShopView.swift in Sources */,
 				E7020B77299C30F000E7A43E /* FarmersNearYouPage.swift in Sources */,
 				E7FA0FB32989BAD400473F4C /* DefaultPfp.swift in Sources */,
+				E71F54EF29A023E900B2E0FD /* CustomerPageView.swift in Sources */,
 				E7FA0FAF2989A78400473F4C /* OrderPage.swift in Sources */,
+				E71F54E329A00C0900B2E0FD /* ProductRow.swift in Sources */,
+				E71F54EB29A0235A00B2E0FD /* CustomerProfileBio.swift in Sources */,
+				E71F54F729A08B5300B2E0FD /* GuidesView.swift in Sources */,
+				E71F54E529A00CD300B2E0FD /* PoductCard.swift in Sources */,
+				E71F54E929A0231E00B2E0FD /* CustomerCircle.swift in Sources */,
+				E71F54DB29A0079200B2E0FD /* CartView.swift in Sources */,
+				E71F54F329A027B900B2E0FD /* AccountPageSection.swift in Sources */,
+				E71F54CE299EC53E00B2E0FD /* LocationManager.swift in Sources */,
+				E7A9AA7D29A1EE9E00D73862 /* tagthing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,11 +435,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"Facts app/Preview Content\"";
 				DEVELOPMENT_TEAM = 4SW86B8349;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Facts-app-Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app requires your location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -319,7 +452,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "idk.Facts-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -334,11 +467,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"Facts app/Preview Content\"";
 				DEVELOPMENT_TEAM = 4SW86B8349;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Facts-app-Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app requires your location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -348,7 +484,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "idk.Facts-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
